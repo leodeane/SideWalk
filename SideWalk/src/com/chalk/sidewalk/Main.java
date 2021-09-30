@@ -8,11 +8,11 @@ public class Main
     public static void main(String[] args)
     {
         Scanner keyboard = new Scanner(System.in);// brings in our keyboard
-        System.out.println("Hello, Fart Face"); // hello, fart face
+        System.out.println("Hello, User"); // hello, user
         // creating students
-        Student tj = new Student("TJ Lander", 3.9, "Green Light", 5, "Present");
+        Student tj = new Student("TJ LastName", 3.9, "Green Light", 5, "Present");
         //tj.printStu();
-        Student leo = new Student("Leo Deane", 3.7, "Red Light", 2, "Absent");
+        Student leo = new Student("Leo LastName", 3.7, "Red Light", 2, "Absent");
         //leo.printStu();
         Student becca = new Student("Becca", 2.9, "Green Light", 1, "Present");
         Student tim = new Student("Tim", 3.2, "Red Light", 3, "Absent");
@@ -40,7 +40,7 @@ public class Main
 
 
         // changing student stuff and printing
-        /*leo.setName("Leonardo Deane");
+        /*leo.setName("Leonardo LastName");
         leo.setGpa(3.2);
         leo.setBeh("Yellow Light");
         leo.setSeat(6);
