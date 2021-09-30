@@ -1,3 +1,4 @@
+// leoleoleo (')>
 package com.chalk.sidewalk;
 import java.util.Vector;
 public class Roster
@@ -36,7 +37,7 @@ public class Roster
         return ros.size();
     }
 
-    public Student getStu(int i)
+    public Student getStu(int i) //getStu is not working in the main for some reason idk how to fix :(
     {
         return ros.get(i);
     }
